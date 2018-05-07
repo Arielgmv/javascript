@@ -1,2 +1,0 @@
-https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
-http://rogerdudler.github.io/git-guide/index.es.html
