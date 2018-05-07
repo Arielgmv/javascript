@@ -1,9 +1,0 @@
-git init (nuevo repositorir de git)
-git commit -m "first commit"
-git remote add origin https://github.com/Arielgmv/javascript.git
-git push -u origin master
-
-
-http://rogerdudler.github.io/git-guide/index.es.html
-
-git pull (para descargar)
