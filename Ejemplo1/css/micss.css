@@ -6,9 +6,9 @@ body{
 
 h1{
 	color:#FC0;
-	border-top:2px solid #FFF;
-	border-bottom:2px solid #FFF;
-	padding-bottom:50px;
+	border-top:5px solid #FFF;
+	border-bottom:5px solid #FFF;
+	padding-bottom:20px;
 	text-align:center;
 }
 
