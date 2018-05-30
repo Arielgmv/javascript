@@ -38,18 +38,10 @@ table {
 }
 /* end reset*/
 
-
-
-
-
-
-
 .contenido {
 	max-width: 760px;
 	margin: 20px 0 0 100px;
 }
-
-
 
 .logo {
 	letter-spacing: -1px;
@@ -63,15 +55,12 @@ table {
 	margin: 20px 0 0 20px;
 }
 
-
-
 .header {
 	position: relative;
 	border-top: solid 6px white;
 	padding: 10px 0 10px 0;
 	margin-bottom: 20px;
 }
-
 
 .principal {
 	xxposition: relative;

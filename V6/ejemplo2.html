@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Jugando con variables</title>
-<link rel="stylesheet" href="css/micss2.css">
+	<head>
+		<meta charset="UTF-8">
+		<title>Jugando con variables</title>
+		<link rel="stylesheet" href="css/micss2.css">
+	</head>
 
-</head>
-
-<body>
-<div class="contenedor">
-<div class="header">
-	<p class="logo">Curso JavaScript Píldoras Informáticas</p>
-</div>
-<div class="contenido">
-	<div class="principal">
-<h1>Jugando con las variables</h1>
-<script>
-	var nombre="Ariel";
-	var apellido="Muñoz";
-</script>
-</div>
-</div>
-
-</div>
-</body>
+	<body>
+		<div class="contenedor">
+			<div class="header">
+				<p class="logo">Curso JavaScript Píldoras Informáticas</p>
+			</div>
+			<div class="contenido">
+				<div class="principal">
+					<h1>Jugando con las variables</h1>
+					<script>
+						/*var nombre="Ariel";
+						var apellido="Muñoz";*/
+						var nombre=prompt("Introduce tu nombre por favor");
+						var apellido=prompt("Introduce tu apellido por favor");
+						document.write("<p>");
+						document.write(nombre+" "+apellido);
+						document.write("</p>");
+					</script>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
