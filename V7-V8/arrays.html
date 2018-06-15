@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Usando Arrays</title>
+<link rel="stylesheet" href="css/micss.css">
+<script>
+  var articulos=["zapatilla","camisa","pantalon","calcetines"];
+  //var articulos=new Array("zapatilla","camisa","pantalon","calcetines");
+	//var articulos=[];
+</script>
+</head>
+
+<body>
+<div class="contenedor">
+  <div class="header">
+    <p class="logo">JavaScript Arrays <i class="mm">Píldoras Informáticas
+     </p>
+  </div>
+  <div class="contenido">
+    <div class="principal">
+      <h1>Manejando Arrays</h1>
+      <script>
+        alert("La cantidad de elementos del array es: "+articulos.length);
+        document.write("<p> El primer artículo es: <strong>");
+        document.write(articulos[0]+"</strong></p>");
+        document.write("<p> El segundo artículo es: <strong>"+articulos[1]+"</strong></p>");
+        document.write("<p> El tercer artículo es: <strong>"+articulos[2]+"</strong></p>");
+        document.write("<p> El cuarto artículo es: <strong>"+articulos[3]+"</strong></p>");
+        document.write("<p> El último elemento del arreglo es: "+((articulos.length)-1))
+        //unshift estamos asignando un nuevo valor a articulos[0]
+        articulos.unshift("Balon");
+        document.write("<p>Casi nos olvidamos de: <strong>"+articulos[0]+"</strong></p>");
+        //push agrega un elemento en la última posición del array
+        articulos.push("raqueta");
+        document.write("<p>Agreguemos un elemento más al final: <strong>"+(articulos[(articulos.length)-1])+"</strong></p>");
+        //agregamos mediante prompt los artículos
+        var ultimo_elemento=prompt("Introduce un artículo de deportes por favor");
+        articulos.push(ultimo_elemento);
+        document.write("<p>El último elemento que agregaste es: <strong>"+(articulos[(articulos.length)-1])+"</strong></p>");
+        document.write("<p> El último elemento del arreglo es: "+((articulos.length)-1))
+        //imprimimos todos los elementos del array
+        document.write("<p>"+articulos[0]+"<br/>"+articulos[1]+"<br/>"+articulos[2]+"<br/>"+articulos[3]+"<br/>"+articulos[4]+"<br/>"+articulos[5]+"<br/>"+articulos[6]+"<br/></p>");
+        //eliminar el primer elemento
+        alert("Borraremos el primer elemento");
+        articulos.shift();
+        document.write("<p>"+articulos[0]+"<br/>"+articulos[1]+"<br/>"+articulos[2]+"<br/>"+articulos[3]+"<br/>"+articulos[4]+"<br/>"+articulos[5]+"<br/>"+articulos[6]+"<br/></p>");
+        //eliminar el último elemento
+        articulos.pop;
+        document.write("<p>"+articulos[0]+"<br/>"+articulos[1]+"<br/>"+articulos[2]+"<br/>"+articulos[3]+"<br/>"+articulos[4]+"<br/>"+articulos[5]+"<br/>"+articulos[6]+"<br/></p>");
+	    </script>
+     </div>
+  </div>
+  
+</div>
+</body>
+</html>
