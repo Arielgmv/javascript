@@ -13,3 +13,5 @@ video 8, min 08:30
 https://www.youtube.com/watch?v=yn-o0rxXW0o&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=8
 video 9, min 00:00
 https://www.youtube.com/watch?v=6wB-0QSkk3Y
+video 10, min 11:49
+https://www.youtube.com/watch?v=CfKVU0i7w_w
