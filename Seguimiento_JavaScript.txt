@@ -17,3 +17,5 @@ video 10, min 11:49
 https://www.youtube.com/watch?v=CfKVU0i7w_w
 video 11, min 02:00
 https://www.youtube.com/watch?v=jI2pp0ILs40&t=28s
+video 12, min 09:51
+https://www.youtube.com/watch?v=nal3um27Cfk
