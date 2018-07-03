@@ -38,16 +38,16 @@ table{
 <script>
   var cuerpo=document.getElementById("cuerpo");
   var colorWeb=prompt("Introduce el color de fondo. Azul/Verde/Rojo");
-  if(colorWeb=="Verde"){
-    cuerpo.style.backgroundColor="green";
-  }
-  else if(colorWeb="Rojo"){
-    cuerpo.style.backgroundColor="red";
-  }
-  else if(colorWeb="Azul"){
+  if(colorWeb=="Azul") {
     cuerpo.style.backgroundColor="blue";
   }
-  else{
+  else if (colorWeb=="Rojo") {
+    cuerpo.style.backgroundColor="red";
+  }
+  else if (colorWeb=="Verde") {
+    cuerpo.style.backgroundColor="green";
+  }
+  else {
     cuerpo.style.backgroundColor="white";
   }
 </script>
