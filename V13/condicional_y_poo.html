@@ -37,18 +37,18 @@ table{
 </form>
 <script>
   var cuerpo=document.getElementById("cuerpo");
-  var colorWeb=prompt("Introduce el color de fondo. Azul/Verde/Rojo");
-  if(colorWeb=="Azul") {
+  var colorWeb=prompt("Introduce el color de fondo. Azul/Verde/Rojo").toLowerCase();
+  if(colorWeb!="azul" && colorWeb!="verde" && colorWeb!="rojo"){
+    alert("Ese color no está contemplado");
+  }
+  else if(colorWeb=="azul"){
     cuerpo.style.backgroundColor="blue";
   }
-  else if (colorWeb=="Rojo") {
-    cuerpo.style.backgroundColor="red";
-  }
-  else if (colorWeb=="Verde") {
+  else if(colorWeb=="verde"){
     cuerpo.style.backgroundColor="green";
   }
-  else {
-    cuerpo.style.backgroundColor="white";
+  else{
+    cuerpo.style.backgroundColor="red";
   }
 </script>
 </body>
