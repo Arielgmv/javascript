@@ -21,4 +21,6 @@ video 12, min 20:00
 https://www.youtube.com/watch?v=nal3um27Cfk
 video 13, min 12:52
 https://www.youtube.com/watch?v=XP7iqGXFdoQ&index=13&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID
+video 14, min 00:00
+https://www.youtube.com/watch?v=h31VfupJ9Ds&index=14&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID
 
