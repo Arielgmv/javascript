@@ -8,24 +8,34 @@
     <script>
         var num1=prompt("Introduce el primer n°");
         var num2=prompt("Introduce el segundo n°");
-        alert (typeof(num1));
-        var operacion=prompt("Que operación deseas realizar? suma/resta/multiplicación/división").toLowerCase();
-        //parseInt transforma en un entero (pasalo a entero)
-        if(operacion=="suma"){
-            alert(parseInt(num1)+parseInt(num2));
+        if(!isNaN(num1) && !isNaN(num2)){
+            //alert (typeof(num1));
+            var operacion=prompt("Que operación deseas realizar? suma/resta/multiplicación/división").toLowerCase();
+            //parseInt transforma en un entero (pasalo a entero)
+            if(operacion=="suma"){
+                alert(parseInt(num1)+parseInt(num2));
+            }
+            else if(operacion=="resta"){
+                alert(parseInt(num1)-parseInt(num2));
+            }
+            else if(operacion=="multiplicación"||operacion=="multiplicacion"){
+                alert(parseInt(num1)*parseInt(num2));
+            }
+            else if((operacion=="división"||operacion=="division")){
+                alert(parseInt(num1)/parseInt(num2));
+            }
+            else{
+                alert("Operación no contemplada");
+            }
+        }else{
+            if (typeof(num1)=="string" ||typeof(num2)=="string"){
+                alert("Has introducido valores numéricos");
+            }
+            else{
+                alert("Ha ocurrido un error no identificado");
+            }
         }
-        else if(operacion=="resta"){
-            alert(parseInt(num1)-parseInt(num2));
-        }
-        else if(operacion=="multiplicación"||operacion=="multiplicacion"){
-            alert(parseInt(num1)*parseInt(num2));
-        }
-        else if((operacion=="división"||operacion=="division")){
-            alert(parseInt(num1)/parseInt(num2));
-        }
-        else{
-            alert("Operación no contemplada");
-        }
+        
     </script>
 </head>
 <body>
