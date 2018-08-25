@@ -15,18 +15,18 @@
     </style>
     <script>
         var nombre, edad, poblacion;
-        nombre=prompt("Introduce tu nombre por favor");
-            while(!isNaN(nombre)){
+        //nombre=prompt("Introduce tu nombre por favor");
+            do {
                 nombre=prompt("Introduce un nombre valido");
-            }
-        edad=prompt("Introduce tu edad por favor");
-            while(edad<=0 || edad>105 || isNaN(edad)){
+            } while(!isNaN(nombre));
+        //edad=prompt("Introduce tu edad por favor");
+            do {
                 edad=prompt("Introduce un numero o una edad valida");
-            }
-        poblacion=prompt("Introduce tu poblacion por favor");
-            while(!isNaN(poblacion)){
+            } while(edad<=0 || edad>105 || isNaN(edad));
+        //poblacion=prompt("Introduce tu poblacion por favor");
+            do {
                 poblacion=prompt("Introduce una poblacion valida");
-            }
+            } while(!isNaN(poblacion));
     </script>
 </head>
 <body>
