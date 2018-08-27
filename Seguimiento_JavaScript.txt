@@ -29,3 +29,5 @@ video 16, min 00:00
 https://www.youtube.com/watch?v=Sj6m_3cJA2U&index=16&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID
 video 17, min 06:30
 https://www.youtube.com/watch?v=AQn74J9lPyA&index=17&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID
+video 18, min 09:08
+https://www.youtube.com/watch?v=8u1fdOYJ_VQ
