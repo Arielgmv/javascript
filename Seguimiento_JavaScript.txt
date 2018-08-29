@@ -31,6 +31,10 @@ video 17, min 06:30
 https://www.youtube.com/watch?v=AQn74J9lPyA&index=17&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID
 video 18, min 09:08
 https://www.youtube.com/watch?v=8u1fdOYJ_VQ
-video 19, min 00:00
+video 19, min 19:50
 https://www.youtube.com/watch?v=6rVh5uax0EA&t=3s
+video 20, min 08:29
+https://www.youtube.com/watch?v=_hIrAJ_ogpI&t=3s
+video 21, min 05:43
+https://www.youtube.com/watch?v=uUfYLGVLHfI&t=15s
 
