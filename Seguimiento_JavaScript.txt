@@ -35,6 +35,6 @@ video 19, min 19:50
 https://www.youtube.com/watch?v=6rVh5uax0EA&t=3s
 video 20, min 08:29
 https://www.youtube.com/watch?v=_hIrAJ_ogpI&t=3s
-video 21, min 05:43
+video 21, min 17:34
 https://www.youtube.com/watch?v=uUfYLGVLHfI&t=15s
 
