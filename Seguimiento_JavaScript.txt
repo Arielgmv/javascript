@@ -37,4 +37,9 @@ video 20, min 08:29
 https://www.youtube.com/watch?v=_hIrAJ_ogpI&t=3s
 video 21, min 17:34
 https://www.youtube.com/watch?v=uUfYLGVLHfI&t=15s
+video 22, min 03:42
+https://www.youtube.com/watch?v=n7IKmbVKgdU
+video 23, min 04:58
+https://www.youtube.com/watch?v=FhIDjFUCuhs
+
 
