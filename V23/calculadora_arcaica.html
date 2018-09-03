@@ -19,6 +19,23 @@
             alert("La división es: "+ (num1/num2));
         }
         var operacion=prompt("Qué operación quieres realizar");
+        var operador1=prompt("Introduce el primer número");
+        var operador2=prompt("Introduce el segundo número");
+        if(operacion=="sumar"){
+            suma(operador1, operador2);
+        }
+        else if(operacion=="resta"){
+            resta(operador1, operador2);
+        }
+        else if(operacion=="multiplicacion"){
+            multiplicar(operador1, operador2);
+        }
+        else if(operacion=="division"){
+            dividir(operador1, operador2);
+        }
+        else{
+            alert("Operación no contemplada");
+        }
     </script>
 </head>
 <body>
