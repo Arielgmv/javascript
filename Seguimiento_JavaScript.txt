@@ -47,6 +47,8 @@ video 25, min 00:00
 https://www.youtube.com/watch?v=mQajJT80_c4&t=7s
 video 26, min 00:00
 https://www.youtube.com/watch?v=QdzPfkmXX2E&t=6s
+video 27, min 00:00
+https://www.youtube.com/watch?v=gr1PPIrCtc8&t=4s
 
 
 
