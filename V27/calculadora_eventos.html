@@ -29,20 +29,40 @@ table{
 <script>
   var cifra="";
   var acumulado=0;
+  var sumar=false;
+  var restar=false;
+  //función para que nos escriba los números
   function display_numeros(numero){
     document.getElementById("display").value=cifra+numero;
     cifra=document.getElementById("display").value;
   }
+  //función para sumar los números
   function suma(){
     acumulado=acumulado+parseInt(cifra);
+    //muestra el acumulado en pantalla
     document.getElementById("display").value=acumulado;
     cifra="";
-    suma=true;
-
+    sumar=true;
   }
+
+  function resta(){
+    if (sumar){
+      acumulado=acumulado+parseInt(cifra);
+      document.getElementById("display").value=acumulado;
+    }else{
+      acumulado=acumulado-parseInt(cifra);
+      document.getElementById("display").value=acumulado;
+    }    
+    cifra="";
+    sumar=false;
+    restar=true;        
+  }
+
   function resultado(){
     if(sumar){
       document.getElementById("display").value=acumulado+parseInt(cifra);
+    }else if(restar){
+      document.getElementById("display").value=acumulado-parseInt(cifra);
     }
   }
 </script>
@@ -56,7 +76,7 @@ table{
   </tr>
   <tr>
     <td width="26%"><input name="button" type="button" class="numero" id="button" value="+" onclick="suma()"></td>
-    <td width="21%"><input name="button2" type="button" class="numero" id="button2" value="-"></td>
+    <td width="21%"><input name="button2" type="button" class="numero" id="button2" value="-" onclick="resta()"></td>
     <td width="21%"><input name="button3" type="button" class="numero" id="button3" value="*" ></td>
     <td width="32%"><input name="button4" type="button" class="numero" id="button4" value="/" ></td>
   </tr>
@@ -81,7 +101,7 @@ table{
   <tr>
     <td><input name="num0" type="button" class="numero" id="num0" value="0" onclick="display_numeros(0)"></td>
     <td><input name="button17" type="button" class="numero" id="button17" value=","></td>
-    <td colspan="2"><input name="button12" type="button" class="igual" id="button12" value="=" ></td>
+    <td colspan="2"><input name="button12" type="button" class="igual" id="button12" value="=" onclick="resultado()"></td>
   </tr>
 </table>
 <script>
