@@ -34,6 +34,7 @@ table{
   var p_operacion=true;
   var sumar=false;
   var restar=false;
+  var multiplicar=false;
   //función para que nos escriba los números
   function display_numeros(numero){
     document.getElementById("display").value=cifra+numero;
@@ -75,6 +76,27 @@ table{
     restar=true;        
   }
 
+  function multiplica(){
+    if (p_operacion==false){
+      if (multiplicar){
+        acumulado=acumulado*parseInt(cifra);
+        document.getElementById("display").value=acumulado;
+      }else{
+        acumulado=acumulado-parseInt(cifra);
+        document.getElementById("display").value=acumulado;
+      } 
+    }else{
+      acumulado=parseInt(cifra);
+      p_operacion=false;
+    }
+       
+    cifra="";
+    sumar=false;
+    restar=false;
+    multiplicar=true;      
+  }
+  
+  
   function resultado(){
     if(sumar){
       document.getElementById("display").value=acumulado+parseInt(cifra);
@@ -96,7 +118,7 @@ table{
   <tr>
     <td width="26%"><input name="button" type="button" class="numero" id="button" value="+" onclick="suma()"></td>
     <td width="21%"><input name="button2" type="button" class="numero" id="button2" value="-" onclick="resta()"></td>
-    <td width="21%"><input name="button3" type="button" class="numero" id="button3" value="*" ></td>
+    <td width="21%"><input name="button3" type="button" class="numero" id="button3" value="*" onclick="multiplica()></td>
     <td width="32%"><input name="button4" type="button" class="numero" id="button4" value="/" ></td>
   </tr>
   <tr>
