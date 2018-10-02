@@ -29,14 +29,24 @@ table{
 <script>
   var cifra="";
   var acumulado=0;
+  
   function display_numeros(numero){
     document.getElementById("display").value=cifra+numero;
+    //en cifra estamos almacenando lo que hay en el display
     cifra=document.getElementById("display").value;
   }
+  
   function suma(){
     acumulado=acumulado+parseInt(cifra);
+    //con esto hacemos que la suma aparezca en nuestra pantalla
     document.getElementById("display").value=acumulado;
     cifra="";    
+  }
+  
+  function multiplica(){
+    acumulado=acumulado*parseInt(cifra);
+    document.getElementById("display").value=acumulado;
+    cifra="";
   }
 </script>
 </head>
@@ -50,7 +60,7 @@ table{
   <tr>
     <td width="26%"><input name="button" type="button" class="numero" id="button" value="+" onclick="suma()"></td>
     <td width="21%"><input name="button2" type="button" class="numero" id="button2" value="-"></td>
-    <td width="21%"><input name="button3" type="button" class="numero" id="button3" value="*" ></td>
+    <td width="21%"><input name="button3" type="button" class="numero" id="button3" value="*" onclick="multiplica()"></td>
     <td width="32%"><input name="button4" type="button" class="numero" id="button4" value="/" ></td>
   </tr>
   <tr>
