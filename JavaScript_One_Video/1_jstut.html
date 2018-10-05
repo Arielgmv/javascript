@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="jstut.js"></script>
+    <style type="text/css">
+        body {font-size: 1.6em;}
+        .hidden {display: none;}
+        .show {display: inline !important;}
+        button {
+            border: 2px solid black; background: #E5E4E2;
+            font-size: .5em; font-weight: bold; color: black;
+            padding: .8em 2 em;
+            margin-top: .4em;
+        }    
+    </style>
+</head>
+<body>
+    <p id="sayHello"></p>
+    <script>
+        var yourName=prompt("What is your name");
+        //var yourLastName=prompt("What is your last name");
+        if(yourName!=null){
+            document.getElementById("sayHello").innerHTML="Hello "+yourName;
+        }else{
+            alert("Please enter your name and/or your last name");
+        }
+        document.write("5+4= ", 5+4, "<br />");
+        document.write("5+4= " + 5+4, "<br />");
+
+        var age=7;
+        if((age>=5)&&(age<=6)){
+            document.write("Go to Kindergarten" + "<br />");
+        } else if ((age>=7)&&(age<=18)){
+            document.write("Go to College" + "<br />");
+        } else{
+            document.write("Go to Grade" + "<br />");
+        }
+
+        var age1=9;
+        switch(age1){
+            case 5:
+            case 6:
+                document.write("Go to Kindergarten" + "<br />");
+                break;
+            case 7:
+            document.write("Go to 1st grade" + "<br />");
+                break;
+            default:
+                document.write("Go to Other Grade" + "<br />");
+        }
+
+        var canIVote=(age>=18) ? true : false;
+       
+        var i=1;
+        while (i<=10){
+            document.write(i+"<br/>");
+            i++;
+        }
+
+        do{
+            var guess=prompt("Guess a number between 1 and 20");
+        }while(guess!=15){
+            alert("You guessed 15");
+        }
+
+        for(j=0; j<=20; j++){
+            if((j%2)===0){
+                continue;
+            }
+            if(j===17){
+                break;
+            }
+            document.write(j+"<br/>");
+        }
+    </script>
+</body>
+</html>
