@@ -61,3 +61,6 @@ JavaScript One Video
 https://www.youtube.com/watch?v=fju9ii8YsGs&t=6s
 min 50:00
 
+JavaScript Orientado a Objetos (POO)
+https://www.youtube.com/watch?v=DWnZi8G_kZs&t=897s
+min 17:20
