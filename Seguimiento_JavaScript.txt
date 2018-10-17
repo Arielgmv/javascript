@@ -63,4 +63,4 @@ min 50:00
 
 JavaScript Orientado a Objetos (POO)
 https://www.youtube.com/watch?v=DWnZi8G_kZs&t=897s
-min 17:20
+min 23:00
