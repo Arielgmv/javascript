@@ -64,3 +64,7 @@ min 50:00
 JavaScript Orientado a Objetos (POO)
 https://www.youtube.com/watch?v=DWnZi8G_kZs&t=897s
 min 23:00
+
+Aplicación de Productos con Javascript Orientado a Objetos
+https://www.youtube.com/watch?v=nqre9kKFRpc&t=2673s
+min 08:51
