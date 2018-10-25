@@ -19,8 +19,28 @@
     <div class="container">
         <!--Application-->
         <div id="App" class="row pt-5">
-            <h1>Application</h1>
+            <div class="col-md-4">
+                <div class="card-header">
+                    <h4>Add a Product</h4>
+                </div>
+                <form id="product-form" class="card-body">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Product Name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" step="0.01" id="price" placeholder="Product Price" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" id="year" min="1981" value="2018" max="2030" placeholder="Year Product" class="form-control">
+                    </div>
+                    <input type="submit" value="Save" class="btn btn-primary btn-block">
+                </form>
+            </div>
+            <div class="col-md-8">
+                <div id="product-list" class="col-md-8"></div>
+            </div>
         </div>
     </div>
+    <script src="App.js"></script>
 </body>
 </html>
