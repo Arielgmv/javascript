@@ -15,11 +15,17 @@ class UI{
                     <strong>Product Name</strong>: ${product.name}
                     <strong>Product Price</strong>: ${product.price}
                     <strong>Product Year</strong>: ${product.year}
+                    <a href="#" class="btn btn-danger" name="delete">Delete</a>
                 </div>
             </div>`
         ;
         productList.appendChild(element);
     }
+    
+    resetForm(){
+        document.getElementById('product-form').reset();
+    }
+    
     deleteProduct(){
 
     }
@@ -36,6 +42,11 @@ const year=document.getElementById('year').value;
 const product=new Product(name, price, year);
 const ui=new UI();
 ui.addProduct(product);
+ui.resetForm();
 
 e.preventDefault();
+});
+
+document.getElementById('product-list').addEventListener('click', function(e){
+    console.log(e.target)
 });

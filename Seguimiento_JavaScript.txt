@@ -67,4 +67,4 @@ min 23:00
 
 Aplicación de Productos con Javascript Orientado a Objetos
 https://www.youtube.com/watch?v=nqre9kKFRpc&t=2673s
-min 40:13
+min 46:00
