@@ -68,3 +68,7 @@ min 23:00
 Aplicación de Productos con Javascript Orientado a Objetos
 https://www.youtube.com/watch?v=nqre9kKFRpc&t=2673s
 min 46:00
+
+JAVASCRIPT ORIENTADO A OBJETOS
+https://www.youtube.com/watch?v=xh6T7lHKLKg&t=292s
+min 19:25
